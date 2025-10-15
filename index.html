@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Sales Funnel</title>
+    <style>
+        /* Reset & basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f7f7f7;
+            color: #333;
+        }
+
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        iframe {
+            width: 100%;
+            border: none;
+            margin-bottom: 30px;
+        }
+
+        .calendar-container {
+            text-align: center;
+        }
+
+        .cta-section {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .cta-section button {
+            background: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .cta-section button:hover {
+            background: #45a049;
+        }
+
+        @media(min-width: 768px) {
+            iframe {
+                height: 600px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header / Hero Section -->
+    <header>
+        <h1>Welcome to Your Home Solutions</h1>
+        <p>Find the perfect home and schedule your consultation today!</p>
+    </header>
+
+    <!-- Lead Capture Form Section -->
+    <section>
+        <h2>Get Started - Fill Out Your Info</h2>
+        <!-- Embedded Google Form -->
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd7qv_Z7pY6VhWmXYH6VG7qfVn0KhfJycQG04o6dzmF9V1d0w/viewform?embedded=true" height="600"></iframe>
+    </section>
+
+    <!-- Calendar Booking Section -->
+    <section class="calendar-container">
+        <h2>Schedule Your Appointment</h2>
+        <!-- Embedded Google Calendar -->
+        <iframe src="https://calendar.google.com/calendar/embed?src=lreynosa%40fiestahomesodessa.com&ctz=America%2FChicago" height="600"></iframe>
+    </section>
+
+    <!-- Content Request / CTA Section -->
+    <section class="cta-section">
+        <h2>Request a Flyer or Watch Our Home Video</h2>
+        <p>Click the button below and we’ll send you the latest digital flyer or a walkthrough video directly to your email or phone.</p>
+        <!-- Placeholder button for automation -->
+        <button onclick="alert('Your request has been submitted! We will send the content shortly.')">
+            Request Content
+        </button>
+    </section>
+
+    <!-- Optional Footer -->
+    <footer style="text-align:center; padding:20px; background:#f1f1f1; margin-top:40px;">
+        &copy; 2025 Your Company Name. All rights reserved.
+    </footer>
+
+</body>
+</html>
